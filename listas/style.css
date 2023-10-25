@@ -1,0 +1,12 @@
+h1 {
+    color: blue;
+    background-color: aquamarine;
+}
+ol {
+    list-style-type: lower-roman;
+}
+ul{
+    list-style-image:url(https://agroponiente.com/wp-content/uploads/2023/08/pepino-almeria-Agroponiente.png);
+    width: auto;
+    padding: 1000px 1000px;
+}
