@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p.capital::first-letter{
+            float: left;
+            background-color: pink;
+            color: red;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 400%;
+        }
+        img.float{
+            float: left;
+            width: 66px;
+            height: 66px;
+            padding-right: 30px;
+        }
+        img.pinguino{
+            float: right;
+            width: 66px;
+            height: 66px;
+        }
+        hr{
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    
+    <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Heckert_GNU_white.svg/1200px-Heckert_GNU_white.svg.png" alt="img" class="float">Este párrafo tiene insertada una imagen al principio del párrafo. Se trata del logotipo de GNU. GNU es un acrónimo recursivo que significa "GNU is Not Unix" (GNU No es Unix). GNU es un proyecto de software libre iniciado por Richard Stallman en 1984. La imagen debe "flotar" a la izquierda y el texto debe fluir a su derecha.</p>
+    
+    <hr>
+    
+    <p><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/1727px-Tux.svg.png" alt="img" class="pinguino">GNU + Linux = GNU/Linux. El término GNU/Linux reconoce la contribución del proyecto GNU en la creación de sistemas operativos libres.</p>
+</body>
+</html>
