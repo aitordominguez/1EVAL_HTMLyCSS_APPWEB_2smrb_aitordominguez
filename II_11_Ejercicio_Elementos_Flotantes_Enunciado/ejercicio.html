@@ -9,39 +9,55 @@
 
     <link rel="stylesheet" type="text/css" href="css/estilos.css" />
     <style>
-        div.menu-item{
+        .container h1{
+            text-align: center;
+        }
+        nav{
+            display: flex;
             background-color: black;
             color: white;
         }
-        footer {
+
+        .menu-item{ 
+            padding: 20px 20px;
+
+        }
+        footer{
             background-color: gainsboro;
             height: 40px;
             text-align: center;
             padding-top: 20px;
         }
-        div.containt{
-            display: block;
-            position: absolute;
-            text-orientation: sideways;
+
+        .sidebar{
+            width: 200px;
+            height: 612px;
+            background-color: black;
+            color: white;
+            float: left;
         }
-        div.sidebar{
+
+        .courses{
             display: flex;
-            flex-direction: column;
-            position: absolute;
-            padding-top: 20px;
-            
-        }
-        p{
+            padding: 20px 20px;
 
         }
-        div.course{
-            display: inline-block;
-            margin-top: 30px;
-            border-radius: 10px;
-            padding-top: 50px;
-            border: black 1px solid;
+        
+        .course{
+            border: solid 1px black;
+            border-radius: 15px;
+            text-align: center;
         }
-    
+
+        .articles {
+            columns: 3;
+            padding-left: 40px;
+        }
+
+        article{
+            text-align: justify;
+        }
+
     </style>
 </head>
 
